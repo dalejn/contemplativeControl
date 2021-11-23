@@ -18,10 +18,7 @@ MATLAB:        9.8.0.1451342 (R2020a)
 
 ### Functions
 
-Download the [IoSR Matlab Toolbox](https://github.com/IoSR-Surrey/MatlabToolbox)
-Download the 
-
-Move to /scripts/
+Download the [network controllability and control code](https://complexsystemsupenn.com/codedata)
 
 ## Author
 
@@ -31,18 +28,18 @@ Dale Zhou (dalezhou [at] pennmedicine.upenn.edu)
 
 ```
 
-    ├── data                                    		 <- Data goes here.
-    ├── figures                                 		 <- Figures for manuscript.
-    ├── results											 <- Results/intermediate files.
+    ├── data                                             <- Data goes here.
+    ├── figures                                          <- Figures for manuscript.
+    ├── results                                          <- Results/intermediate files.
     │   
     │ 
     │
-    ├── fig2.R                                			 <- Average controllabiltiy vs. drinking
-    ├── fig3_dataPrep.R                      			 <- Prep EMA data
-    ├── fig3_controlAnalysis.m               			 <- Run network control and stability
-    ├── fig3_analyzePlot.R                    			 <- Group diffs in control metrics
-    ├── fig4.R   										 <- Timescale correlation with control metrics
-    ├── supplement_controlMetrics.R             		 <- Correlations among control metrics
+    ├── fig2.R                                           <- Average controllabiltiy vs. drinking
+    ├── fig3_dataPrep.R                                  <- Prep EMA data
+    ├── fig3_controlAnalysis.m                           <- Run network control and stability
+    ├── fig3_analyzePlot.R                               <- Group diffs in control metrics
+    ├── fig4.R                                           <- Timescale correlation with control metrics
+    ├── supplement_controlMetrics.R                      <- Correlations among control metrics
     ├── supplemental_lmAttentionImpulsivity.R            <- Attention impulsivity & emotion regulation
     ├── supplemental_multiLevelAttentionImpulsivity.R    <- Attention impulsivity & drinking
     │
